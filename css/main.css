@@ -79,17 +79,16 @@ thead {
 /* Secondary button for actions such as "Learn More" */
 .btn-secondary {
     display: inline-block;
-    background-color: #5C4632; /* Warm brown */
-    color: white;
+    background-color: transparent;
+    color: #5C4632;
     padding: 10px 18px;
+    border: 2px solid #5C4632;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    border: none;
-    cursor: pointer;
 }
 
-/* Darker brown when the user hovers */
 .btn-secondary:hover {
-    background-color: #433225;
+    background-color: #5C4632;
+    color: white;
 }
