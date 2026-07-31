@@ -55,3 +55,41 @@ th, td {
 thead {
  background-color: #E9E1D7;   /* Soft neutral table-header color */
 }
+
+/* === Component: Buttons === */
+
+/* Primary button for important actions such as "Shop Now" */
+.btn-primary {
+    display: inline-block;
+    background-color: #B86B3D; /* Terracotta */
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* Darker terracotta when the user hovers */
+.btn-primary:hover {
+    background-color: #8F4F2D;
+}
+
+/* Secondary button for actions such as "Learn More" */
+.btn-secondary {
+    display: inline-block;
+    background-color: #5C4632; /* Warm brown */
+    color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* Darker brown when the user hovers */
+.btn-secondary:hover {
+    background-color: #433225;
+}
