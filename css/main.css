@@ -153,3 +153,48 @@ thead {
     margin-top: 0; /* Remove the margin we added for the mobile stack */
   }
 }
+
+/* ======================================= */
+/* NAVIGATION BAR  */
+/* ======================================= */
+/* Navigation bar */
+.navbar {
+    background-color: #2F3A2F;
+    padding: 1rem 5%;
+}
+
+/* Navigation list */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation links */
+.nav-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Navigation hover effect */
+.nav-links a:hover {
+    color: #D98A5F;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: #2F3A2F;
+    padding: 1rem 5%;
+}
+
+.nav-logo {
+    width: 90px;
+    height: auto;
+    display: block;
+}
