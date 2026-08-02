@@ -159,7 +159,7 @@ thead {
 /* ======================================= */
 /* Navigation bar */
 .navbar {
-    background-color: #2F3A2F;
+    background-color: #FAF7F2;   /* Warm cream background */
     padding: 1rem 5%;
 }
 
@@ -189,7 +189,7 @@ thead {
     display: flex;
     align-items: center;
     gap: 2rem;
-    background-color: #2F3A2F;
+    background-color: #FAF7F2;   /* Warm cream background */
     padding: 1rem 5%;
 }
 
