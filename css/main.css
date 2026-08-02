@@ -116,3 +116,40 @@ thead {
     background-color: #5C4632;
     color: white;
 }
+/*========================================*/
+/* In css/main.css - Default Mobile Styles */
+/*========================================*/
+.container {
+  width: 90%; /* Use percentage to be fluid */
+  margin: 0 auto; /* Center the container */
+}
+
+.main-content {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+}
+
+.sidebar {
+  background-color: #e9ecef;
+  padding: 1.5rem;
+  margin-top: 1.5rem; /* Add space between stacked elements on mobile */
+}
+
+/* ======================================= */
+/* MEDIA QUERY FOR LARGER SCREENS     */
+/* ======================================= */
+@media (min-width: 768px) {
+  .container {
+    display: flex; /* Activate Flexbox! */
+    gap: 1.5rem;   /* Create a gap between the columns */
+  }
+
+  .main-content {
+    flex: 3; /* This means it will take up 3 "shares" of the space */
+  }
+
+  .sidebar {
+    flex: 1; /* This will take up 1 "share" of the space */
+    margin-top: 0; /* Remove the margin we added for the mobile stack */
+  }
+}
