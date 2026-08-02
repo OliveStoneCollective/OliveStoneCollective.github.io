@@ -125,12 +125,12 @@ thead {
 }
 
 .main-content {
-  background-color: #f8f9fa;
+  background-color: #FAF7F2;   /* Warm cream background */
   padding: 1.5rem;
 }
 
 .sidebar {
-  background-color: #e9ecef;
+  background-color: #E9E1D7; /*Darker warm cream background*/
   padding: 1.5rem;
   margin-top: 1.5rem; /* Add space between stacked elements on mobile */
 }
