@@ -48,5 +48,23 @@
     <p><em>A pantry staple</em> for home cooks and grill enthusiasts.</p>
      <a href="products.html" class="btn-primary">Shop Now</a>
       <p>(c) 2025 Olive & Stone Collective . All Rights Reserved.</p>
+    
+    <!-- Hanburger Menu JavaScript -->
+    <script>
+  const menuButton = document.querySelector('.menu-toggle');
+  const mainNavigation = document.querySelector('.main-nav');
+
+  menuButton.addEventListener('click', function () {
+    mainNavigation.classList.toggle('active');
+
+    const isOpen = mainNavigation.classList.contains('active');
+
+    menuButton.setAttribute('aria-expanded', isOpen);
+    menuButton.setAttribute(
+      'aria-label',
+      isOpen ? 'Close navigation menu' : 'Open navigation menu'
+    );
+  });
+</script>
   </body>
 </html>
