@@ -86,7 +86,7 @@ thead {
 .btn-primary {
     display: inline-block;
     background-color: #B86B3D; /* Terracotta */
-    color: white;
+    color: #FFFFFF;
     padding: 12px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -153,11 +153,9 @@ thead {
     margin-top: 0; /* Remove the margin we added for the mobile stack */
   }
 }
-
 /* ======================================= */
 /* NAVIGATION BAR  */
 /* ======================================= */
-/* Navigation bar */
 .navbar {
     background-color: #FAF7F2;   /* Warm cream background */
     padding: 1rem 5%;
@@ -198,73 +196,6 @@ thead {
     height: auto;
     display: block;
 }
-
-/* Mobile-First Navigation Styles */
-.site-header {
-  padding: 1rem;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.main-nav ul {
-  list-style: none; /* Remove bullet points */
-  padding: 0;
-  margin: 1rem 0 0 0;
-}
-
-.main-nav li {
-  text-align: center;
-  border-top: 1px solid #ddd;
-}
-
-.main-nav a {
-  display: block; /* Makes the entire area clickable */
-  padding: 1rem;
-  text-decoration: none;
-  color: #333;
-}
-
-.main-nav a:hover {
-  background-color: #f4f4f4;
-}
-
-
-/* Mobile-First Navigation Styles */
-.site-header {
-  padding: 1rem;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.main-nav ul {
-  list-style: none; /* Remove bullet points */
-  padding: 0;
-  margin: 1rem 0 0 0;
-}
-
-.main-nav li {
-  text-align: center;
-  border-top: 1px solid #ddd;
-}
-
-.main-nav a {
-  display: block; /* Makes the entire area clickable */
-  padding: 1rem;
-  text-decoration: none;
-  color: #333;
-}
-
-.main-nav a:hover {
-  background-color: #f4f4f4;
-}
 /* ======================================= */
 /* Mobile-First Navigation Styles */
 /* ======================================= */
@@ -276,6 +207,14 @@ thead {
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
+}
+
+.main-nav {  /*nav.hide behind the hamburger buttin*/
+  display: none;
+}
+
+.main-nav.active {
+  display: block;
 }
 
 .main-nav ul {
@@ -325,4 +264,22 @@ thead {
   .main-nav a {
     padding: 1.5rem; /* Give more space for desktop */
   }
+}
+/* ======================================= */
+/* Hamburger Button */
+/* ======================================= */
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.3rem;
+  background: transparent;
+  padding: 0.5rem;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 1.75rem;
+  height: 0.15rem;
+  background-color: #2F3A2F;
 }
