@@ -12,7 +12,6 @@
   </head>
   <body>
     <header class="site-header">
-    <nav class="navbar">
     <a href="index.html" class="logo-link">
         <img
             src="images/logo.png"
@@ -20,8 +19,18 @@
             class="nav-logo"
         >
     </a>
-  <div class="logo"></div>
-  <nav class="main-nav">
+  <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+    >
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+  <nav class="main-nav"> id="main-navigation">
     <ul>
       <li><a href="/index.html">Home</a></li>
       <li><a href="/pages/about.html">About</a></li>
