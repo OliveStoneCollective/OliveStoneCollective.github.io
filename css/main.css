@@ -198,3 +198,131 @@ thead {
     height: auto;
     display: block;
 }
+
+/* Mobile-First Navigation Styles */
+.site-header {
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-nav ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+.main-nav li {
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.main-nav a {
+  display: block; /* Makes the entire area clickable */
+  padding: 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.main-nav a:hover {
+  background-color: #f4f4f4;
+}
+
+
+/* Mobile-First Navigation Styles */
+.site-header {
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-nav ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+.main-nav li {
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.main-nav a {
+  display: block; /* Makes the entire area clickable */
+  padding: 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.main-nav a:hover {
+  background-color: #f4f4f4;
+}
+/* ======================================= */
+/* Mobile-First Navigation Styles */
+/* ======================================= */
+.site-header {
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-nav ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+.main-nav li {
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.main-nav a {
+  display: block; /* Makes the entire area clickable */
+  padding: 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.main-nav a:hover {
+  background-color: #f4f4f4;
+}
+/* ======================================= */
+/* Desktop Navigation Styles */
+/* ======================================= */
+@media (min-width: 768px) {
+  .site-header {
+    display: flex; /* Activate Flexbox */
+    justify-content: space-between; /* Pushes logo and nav to opposite ends */
+    align-items: center; /* Vertically aligns them */
+  }
+
+  .logo {
+    text-align: left; /* Align logo to the left */
+  }
+
+  .main-nav ul {
+    display: flex; /* Make the list items horizontal */
+    margin: 0;
+  }
+
+  .main-nav li {
+    border: none; /* Remove the mobile borders */
+  }
+
+  .main-nav a {
+    padding: 1.5rem; /* Give more space for desktop */
+  }
+}
