@@ -175,14 +175,14 @@ thead {
 
 /* Navigation links */
 .nav-links a {
-    color: #D98A5F;
+    color: #2F3A2F;              /* Deep olive green */
     text-decoration: none;
     font-weight: 600;
 }
 
 /* Navigation hover effect */
 .nav-links a:hover {
-    color: #D98A5F;
+    color: #6d756d;              /*Lighter Olive Green*/
 }
 
 .navbar {
