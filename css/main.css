@@ -252,6 +252,10 @@ thead {
     text-align: left; /* Align logo to the left */
   }
 
+  .menu-toggle {
+  display: none; /*Hide the hamburger button on desktop/*
+}
+  
   .main-nav ul {
     display: flex; /* Make the list items horizontal */
     margin: 0;
