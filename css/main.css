@@ -15,6 +15,13 @@ body {
   font-size: 1rem; /* This will be 16px */
 
 }
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Main page titles */
 h1 {
   font-family: 'Gelasio', serif;  
