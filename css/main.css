@@ -38,6 +38,16 @@ h2, h3 {
    font-weight: 600;
 }
 
+h2 {
+  font-size: 2rem;      /* 32px */
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;    /* 24px */
+  margin-bottom: 0.5rem;
+}
+
 p {
   margin-bottom: 1.5rem; /* 24px / 16 = 1.5 */
 }
