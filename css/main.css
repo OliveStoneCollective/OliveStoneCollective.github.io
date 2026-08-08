@@ -160,8 +160,8 @@ thead {
 /* ======================================= */
 /* MEDIA QUERY FOR LARGER SCREENS     */
 /* ======================================= */
-@media (min-width: 768px) {
-  .container {
+@media (min-width: 768px) {  /* Styles inside here ONLY apply on screens 768px or wider */
+.container {
     display: flex; /* Activate Flexbox! */
     gap: 1.5rem;   /* Create a gap between the columns */
   }
@@ -175,6 +175,7 @@ thead {
     margin-top: 0; /* Remove the margin we added for the mobile stack */
   }
 }
+
 /* ======================================= */
 /* NAVIGATION BAR  */
 /* ======================================= */
