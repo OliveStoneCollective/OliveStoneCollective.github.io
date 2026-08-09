@@ -27,4 +27,19 @@
     <loc>https://olivestonecollective.github.io/gallery.html</loc>
   </url>
 
+  <!-- Marketing Page -->
+<url>
+  <loc>https://olivestonecollective.github.io/marketing/index.html</loc>
+</url>
+
+<!-- Marketing Features Page -->
+<url>
+  <loc>https://olivestonecollective.github.io/marketing/features.html</loc>
+</url>
+
+<!-- Marketing Pricing Page -->
+<url>
+  <loc>https://olivestonecollective.github.io/marketing/pricing.html</loc>
+</url>
+
 </urlset>
