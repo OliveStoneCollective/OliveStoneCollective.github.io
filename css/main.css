@@ -278,6 +278,11 @@ thead {
   .menu-toggle {
   display: none; /*Hide the hamburger button on desktop*/
 }
+
+  /* SHOW navigation on desktop */
+  .main-nav {
+    display: block;
+  }
   
   .main-nav ul {
     display: flex; /* Make the list items horizontal */
