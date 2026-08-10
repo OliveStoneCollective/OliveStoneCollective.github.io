@@ -11,20 +11,33 @@
       content="Discover Olive & Stone spice blends, stylish kitchen tools, storage essentials, and modern cooking products designed for everyday kitchens.">
     
       <!-- Main.CSS Link-->
-      <link rel="stylesheet" href="/css/main.css">
+      <link rel="stylesheet" href="../css/main.css">
     
     </head>
   <body>
-    <!-- . . / means look up one folder. The browser must go up out of /pages, then open index.html. -->
-    <nav class="main-nav">
-      <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/pages/about.html">About Us</a></li>
-        <li><a href="/pages/services.html">Services</a></li>
-        <li><a href="/pages/contact.html">Contact</a></li>
-        <li><a href="/gallery.html">Gallery</a></li>
-      </ul>
-    </nav>
+    <!-- . . / means look up one folder. The browser must go up out of /pages, then open index.html. --
+    <!-- Navigation -->
+    <header class="site-header">
+
+  <div class="logo">Olive & Stone</div>
+
+  <button class="menu-toggle" aria-label="Open navigation menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <nav class="main-nav">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../pages/about.html">About Us</a></li>
+      <li><a href="../pages/services.html">Services</a></li>
+      <li><a href="../pages/contact.html">Contact</a></li>
+      <li><a href="../gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+</header>
     
     <!-- The <hr> tag creates a horizontal rule (a line), visually separating sections. -->
     <hr>
@@ -45,5 +58,15 @@
     <hr>
     <!-- The footer provides consistency and a professional closing on every page. -->
     <p>(c) 2026 Olive & Stone Collective . All Rights Reserved.</p>
+
+    <!-- Navigation Hamburger Coding -->
+    <script>
+      const menuToggle = document.querySelector('.menu-toggle');
+      const mainNav = document.querySelector('.main-nav');
+    
+      menuToggle.addEventListener('click', function() {
+        mainNav.classList.toggle('active');
+      });
+    </script>
   </body>
 </html>
