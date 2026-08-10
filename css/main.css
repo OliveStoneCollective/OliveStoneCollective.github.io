@@ -120,6 +120,7 @@ thead {
 /* Darker terracotta when the user hovers */
 .btn-primary:hover {
     background-color: #8F4F2D;
+    color: white;
 }
 
 /* Secondary button for actions such as "Learn More" */
