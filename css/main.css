@@ -316,3 +316,14 @@ thead {
   height: 0.15rem;
   background-color: #2F3A2F;
 }
+/* ======================================= */
+/* Google Maps */
+/* ======================================= */
+.responsive-map {
+  width: 100%;
+  max-width: 700px;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  display: block;
+  margin: 1rem auto;
+}
